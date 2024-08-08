@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="BibliotecaAudio.css" />
+  </head>
+  <body>
+    <header>
+     <!-- Inicio Menú NavBar -->
+        <header class="header">
+          <div class="container">
+          <div class="btn-menu">
+            <label for="btn-menu">☰</label>
+          </div>
+            <div class="logo">
+              <h1>Avoidance Avenue</h1>
+            </div>
+            <nav class="menu">
+              <a href="https://8yd68p-5000.csb.app/">Inicio</a>
+              
+            </nav>
+          </div>
+        </header>
+        <div class="capa"></div>
+      <input type="checkbox" id="btn-menu">
+      <div class="container-menu">
+        <div class="cont-menu">
+          <nav>
+            
+            <a href="Biblioteca_AudioVisual/Biblioteca.html">Biblioteca Visual</a>
+        <a href="Gestor_de_actividades/Actividades.html">Gestor de actividades</a>
+          </nav>
+          <label for="btn-menu">✖️</label>
+        </div>
+      </div>
+     <!-- Fin Menú NavBar -->
+
+     <!-- Inicio Primera parte --> 
+ <div class="content">
+  <h1>Bienvenido para relajarte</h1>
+  <div class="container">
+    <h3><span class="auto-type" style="font-size: 40px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"></a></span></h3>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="BibliotecaAudio.js"></script>
+</div>
+</header>
+     <!-- Fin Primera parte --> 
+
+     <!-- audio ambiente --> 
+     <section id="Ambiente" class="Ambiente">
+     <h1>Biblioteca de Audio</h1>
+     <div class="library">
+         <div class="audio-item" onclick="playAudio('audio1')">
+             <img src="images/audio1.jpg" alt="Audio 1">
+             <audio id="audio1">
+                 <source src="audio/audio1.mp3" type="audio/mp3">
+                 Tu navegador no soporta la etiqueta de audio.
+             </audio>
+         </div>
+         <div class="audio-item" onclick="playAudio('audio2')">
+             <img src="images/audio2.jpg" alt="Audio 2">
+             <audio id="audio2">
+                 <source src="audio/audio2.mp3" type="audio/mp3">
+                 Tu navegador no soporta la etiqueta de audio.
+             </audio>
+         </div>
+         <div class="audio-item" onclick="playAudio('audio3')">
+          <img src="images/audio3.jpg" alt="Audio 3">
+          <audio id="audio3">
+              <source src="audio/audio2.mp3" type="audio/mp3">
+              Tu navegador no soporta la etiqueta de audio.
+          </audio>
+      </div>
+      <div class="audio-item" onclick="playAudio('audio4')">
+        <img src="images/audio4.jpg" alt="Audio 4">
+        <audio id="audio3">
+            <source src="audio/audio2.mp3" type="audio/mp3">
+            Tu navegador no soporta la etiqueta de audio.
+        </audio>
+    </div>
+         <!-- Añade más elementos de audio según sea necesario -->
+     </div>
+    </section>
+
+    <script src="ambiente.js"></script>
+
+     <!-- Relajante -->
+     <div class="scroll-container">
+      <div class="players">
+          <div class="player">
+              <img src="Imagenes/relajante/Palms.jpg" alt="Album Art">
+              <div class="info">
+                  <h2>Palms</h2>
+                  <p class="author">Adventurine</p>
+              </div>
+              <div class="controls">
+                  <button onclick="playAudio('audio1')">&#9658;</button>
+              </div>
+              <audio id="audio1" src="Canciones/relajante/Palms.mp3"></audio>
+          </div>
+
+          <div class="player">
+              <img src="https://via.placeholder.com/300" alt="Album Art">
+              <div class="info">
+                  <h2>Nombre de la Canción 2</h2>
+                  <p class="author">Autor 2</p>
+              </div>
+              <div class="controls">
+                  <button onclick="playAudio('audio2')">&#9658;</button>
+              </div>
+              <audio id="audio2" src="tu-archivo-de-musica2.mp3"></audio>
+          </div>
+
+          <div class="player">
+              <img src="https://via.placeholder.com/300" alt="Album Art">
+              <div class="info">
+                  <h2>Nombre de la Canción 3</h2>
+                  <p class="author">Autor 3</p>
+              </div>
+              <div class="controls">
+                  <button onclick="playAudio('audio3')">&#9658;</button>
+              </div>
+              <audio id="audio3" src="tu-archivo-de-musica3.mp3"></audio>
+          </div>
+
+          <!-- Ejemplos adicionales -->
+          <div class="player">
+              <img src="https://via.placeholder.com/300" alt="Album Art">
+              <div class="info">
+                  <h2>Nombre de la Canción 4</h2>
+                  <p class="author">Autor 4</p>
+              </div>
+              <div class="controls">
+                  <button onclick="playAudio('audio4')">&#9658;</button>
+              </div>
+              <audio id="audio4" src="tu-archivo-de-musica4.mp3"></audio>
+          </div>
+
+          <div class="player">
+              <img src="https://via.placeholder.com/300" alt="Album Art">
+              <div class="info">
+                  <h2>Nombre de la Canción 5</h2>
+                  <p class="author">Autor 5</p>
+              </div>
+              <div class="controls">
+                  <button onclick="playAudio('audio5')">&#9658;</button>
+              </div>
+              <audio id="audio5" src="tu-archivo-de-musica5.mp3"></audio>
+          </div>
+
+          <div class="player">
+              <img src="https://via.placeholder.com/300" alt="Album Art">
+              <div class="info">
+                  <h2>Nombre de la Canción 6</h2>
+                  <p class="author">Autor 6</p>
+              </div>
+              <div class="controls">
+                  <button onclick="playAudio('audio6')">&#9658;</button>
+              </div>
+              <audio id="audio6" src="tu-archivo-de-musica6.mp3"></audio>
+          </div>
+
+          <div class="player">
+              <img src="https://via.placeholder.com/300" alt="Album Art">
+              <div class="info">
+                  <h2>Nombre de la Canción 7</h2>
+                  <p class="author">Autor 7</p>
+              </div>
+              <div class="controls">
+                  <button onclick="playAudio('audio7')">&#9658;</button>
+              </div>
+              <audio id="audio7" src="tu-archivo-de-musica7.mp3"></audio>
+          </div>
+
+          <div class="player">
+              <img src="https://via.placeholder.com/300" alt="Album Art">
+              <div class="info">
+                  <h2>Nombre de la Canción 8</h2>
+                  <p class="author">Autor 8</p>
+              </div>
+              <div class="controls">
+                  <button onclick="playAudio('audio8')">&#9658;</button>
+              </div>
+              <audio id="audio8" src="tu-archivo-de-musica8.mp3"></audio>
+          </div>
+      </div>
+  </div>
+
+  <script> let currentAudio = null;
+    function playPause(id) {
+        const audio = document.getElementById(id);
+        const button = audio.nextElementSibling.querySelector('button');
+    
+        if (currentAudio && currentAudio !== audio) {
+            currentAudio.pause();
+            currentAudio.nextElementSibling.querySelector('button').innerHTML = '&#9658;';
+        }
+    
+        if (audio.paused) {
+            audio.play();
+            button.innerHTML = '&#10074;&#10074;';
+        } else {
+            audio.pause();
+            button.innerHTML = '&#9658;';
+        }
+    
+        currentAudio = audio;
+    }
+
+</script>
+
+    </body>
+    </html>
